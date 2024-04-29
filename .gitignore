@@ -1,0 +1,28 @@
+__pycache__
+*.pyc
+*.pyd
+.DS_Store
+build
+dist
+*.egg-info
+
+# Cython generated files
+*.c
+*.cpp
+*.so
+*.html
+
+# emacs and other temp files
+*~
+
+# Coverage report
+.coverage
+coverage.xml
+
+# Profiler results
+*.profile
+*.lprof
+
+
+# Ignore massive hdf5 files
+*.h5

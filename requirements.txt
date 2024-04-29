@@ -1,0 +1,11 @@
+numpy
+scipy
+h5py
+Cython
+matplotlib
+tqdm
+Pint
+black
+pre-commit
+colorama
+pytest

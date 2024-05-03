@@ -17,10 +17,10 @@ Functions for analyzing time series waveforms prior to adding them to the
 # assumes rise value bit is 0, fall value bit is 1
 OMA_FILTER_MAP = {
     "xp": {
-        "fbefore_rise": [],
-        "fafter_rise": [1],
-        "fbefore_fall": [],
-        "fafter_fall": [0]
+        "fbefore_rise": [0,],
+        "fafter_rise": [1, 1],
+        "fbefore_fall": [1,],
+        "fafter_fall": [0, 0]
     },
     "4140": {
         "fbefore_rise": [0]*3,
